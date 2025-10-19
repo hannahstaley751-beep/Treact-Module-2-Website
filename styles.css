@@ -201,7 +201,7 @@ ul {
     filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
 }
 
-.menu__backdrop {
+.modal {
     position: fixed;
     background-color: #fff;
     top: 0;
