@@ -48,8 +48,6 @@ li {
     padding-bottom: 2px;
 }
 
-
-
 .nav__row { 
     width: 100%;
     max-width: 1280px;
@@ -81,9 +79,10 @@ ul {
 .nav__link {
     margin-left: 16px;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
     padding: 8px;
+    position: relative;
 }
 
 .nav__link--primary {
@@ -97,6 +96,10 @@ ul {
     border: none;
     width: auto;
     transition: all 300ms ease;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    opacity: 0;
 }
 
 
