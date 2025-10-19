@@ -11,8 +11,10 @@
 <body>
     <section id="landing">
         <nav>
+            <div class="nav__container">
             <div class="row nav__row">
                 <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+                <div class="nav__logo--title">Treact</div>
                 <ul class="nav__links">
                     <li>
                         <a href="#" class="nav__link">About</a>
@@ -36,8 +38,13 @@
                      <button class="btn__menu" onclick="openMenu()">
                         <i class="fa-solid fa-bars"></i>
                      </button>
-           </div>
+                     <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
 
+                        </button>
+                     </div>
+           </div>
+</div>
         </nav>
     </section>
     
