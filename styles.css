@@ -117,16 +117,19 @@ nav {
     height: 80px;
     padding-top: 32px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 
 .nav__row { 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .nav__logo {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin: 8px 0;
     padding-bottom: 4px;
@@ -151,6 +154,7 @@ nav {
     max-width: 1200px;
     padding: 0 24px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
