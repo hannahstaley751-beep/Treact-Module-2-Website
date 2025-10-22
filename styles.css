@@ -303,7 +303,7 @@ ul {
     border: none;
 }
 
-.modal--open .modal {
+.menu--open .modal {
     visibility: visible;
     opacity: 1;
     transform: translateX(0);
