@@ -272,7 +272,7 @@ ul {
     transform: translateX(300%);
 }
 
-.modal--open {
+.menu--open {
     max-height: 100vh;
     overflow-y: hidden;
 }
